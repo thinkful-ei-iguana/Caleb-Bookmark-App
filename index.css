@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  width: 85%;
+  margin: 0 auto;
+  background-color: #04243a;
+  margin-bottom: 50px;
+}
+
+h1 {
+  color: #DBF7FF;
+}
+
+button, select, input[type="submit"] {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: white;
+  border: solid;
+  border-color: #DBF7FF;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  background-color: #DBF7FF;
+  color: #04243a;
+  font-weight: 600;
+}
+
+#submit, .cancel  {
+  margin-bottom: 10px;
+  background-color: #04243a;
+  color: #DBF7FF;
+}
+
+select {
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.add-new, .visit-site {
+  margin-right: 10px;
+}
+
+.visit-site, .delete {
+  border-color: #04243a;
+  background-color: #04243a;
+  color: #DBF7FF;
+}
+
+#filter {
+  margin-top: 5px;
+}
+
+button:hover, select:hover, li:hover, input:hover[type="submit"], input:hover[type="radio"] {
+  cursor: pointer;
+  border-color: #86E2D5;
+}
+
+.cancel:hover, #cancel-error:hover {
+  border-color: #B11030;
+}
+
+#cancel-error {
+  color: #B11030;
+  font-size: 24px;
+  float:right;
+  padding: 5px 10px;
+  margin: 5px 10px;
+}
+
+h2 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: #DBF7FF;
+}
+
+li > h2 {
+  color: #04243a;
+}
+
+.stars {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: 1000px;
+}
+
+li, form , header > div {
+  margin-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: solid;
+  border-color: #DBF7FF;
+  border-radius: 10px;
+  background-color: #DBF7FF;
+  color: #04243a;
+}
+
+form, header > div {
+  max-width: 1000px;
+}
+
+li > div {
+  padding-left: 10px;
+}
+
+form > div {
+  margin-top: 10px;
+}
+
+form input {
+  color: #04243a;
+}
+
+.rating-container {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  display: block
+}
+
+.rating-container label {
+  font-weight: 700;
+  display: block;
+}
+
+#title, #url, #desc, fieldset{
+  width: 235px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px;
+  border: solid;
+  border-color: #86E2D5;
+  border-radius: 5px;
+  background-color: white;
+}
+
+fieldset > div {
+  font-weight: 300;
+  font-size: 20px;
+  color: #B11030;
+}
+
+::placeholder {
+  color: #04243a;
+}
+
+header > div {
+  color: #B11030;
+  border-color: #B11030;
+  margin-bottom: 15px;
+}
+
+.stars {
+  font-size: 24px;
+  color: #B11030;
+}
+
+header p {
+  margin-left: 15px;
+  font-size: 16px;
+}
